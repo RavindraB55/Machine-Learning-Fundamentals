@@ -11,8 +11,7 @@ from Metrics import PerformanceMetrics
 HELPFUL LINKS:
 - https://s3.amazonaws.com/assets.datacamp.com/email/other/ML+Cheat+Sheet_2.pdf
 - https://towardsdatascience.com/linear-regression-using-python-b136c91bf0a2
-
-
+- https://analyticsvidhya.com/blog/2021/10/everything-you-need-to-know-about-linear-regression/
 '''
 
 def generate_data():
