@@ -21,3 +21,13 @@ The formula for R2 is:
 ```math
 R^2 = 1 - \frac{\text{SSR}}{\text{SST}}
 ```
+
+## Assumptions of Linear Regression
+1). **Linearity:** The relationship between the independent variable(s) and the dependent variable is linear. The model assumes that a change in the independent variable(s) leads to a proportional change in the dependent variable.
+
+2). **Independence of Residuals:** The residuals (the differences between the observed and predicted values) are independent. In other words, the value of the dependent variable for one observation is not affected by the values of other observations.
+
+3). **Normality of Residuals:** The residuals are normally distributed. This assumption is important for statistical inference, particularly hypothesis testing and confidence interval estimation.
+
+4). **Homoscedasticity:** The variance of the residuals is constant across all levels of the independent variable(s). This implies that the spread of residuals should be roughly constant as you move along the predicted values.
+
