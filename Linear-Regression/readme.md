@@ -25,7 +25,7 @@ R^2 = 1 - \frac{\text{RSS}}{\text{TSS}}
 where: 
 - Residual sum of Squares (RSS) represents the unexplained or residual variation in the dependent variable by the model. It's calculated by taking the sum of the squared differences between each actual value and the predicted value from the model.
 ```math
-RSS = \sum{y_{i} - \y_hat_{i}}^2{}
+RSS = \sum{(y_{i} - \hat{y}_{i})}^2
 ```
 - Total Sum of Squares (TSS) represents the total variation in the dependent variable. It's calculated by taking the sum of the squared differences between each actual value and the mean of all actual values.
 
