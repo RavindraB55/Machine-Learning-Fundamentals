@@ -19,8 +19,16 @@ The R2 value ranges from 0 to 1, where:
 The formula for R2 is:
 
 ```math
-R^2 = 1 - \frac{\text{SSR}}{\text{SST}}
+R^2 = 1 - \frac{\text{RSS}}{\text{TSS}}
 ```
+
+where: 
+- Residual sum of Squares (RSS) represents the unexplained or residual variation in the dependent variable by the model. It's calculated by taking the sum of the squared differences between each actual value and the predicted value from the model.
+```math
+RSS = \sum{y_{i} - \y_hat_{i}}^2{}
+```
+- Total Sum of Squares (TSS) represents the total variation in the dependent variable. It's calculated by taking the sum of the squared differences between each actual value and the mean of all actual values.
+
 
 ## Assumptions of Linear Regression
 1). **Linearity:** The relationship between the independent variable(s) and the dependent variable is linear. The model assumes that a change in the independent variable(s) leads to a proportional change in the dependent variable.
