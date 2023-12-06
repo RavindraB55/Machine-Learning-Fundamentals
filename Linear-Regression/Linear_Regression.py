@@ -7,11 +7,19 @@ import matplotlib.pyplot as plt
 from Plots import scatter_plot, plot, ploty
 from Metrics import PerformanceMetrics
 
+'''
+HELPFUL LINKS:
+- https://s3.amazonaws.com/assets.datacamp.com/email/other/ML+Cheat+Sheet_2.pdf
+- https://towardsdatascience.com/linear-regression-using-python-b136c91bf0a2
+
+
+'''
+
 def generate_data():
     # Generate the random data
     np.random.seed(0)
-    x = np.random.rand(100,1)
-    y = 2 + 3 * x + np.random.rand(100, 1)
+    x = np.random.rand(1000,1)
+    y = 2 + 3 * x + np.random.rand(1000, 1)
     return x, y
 
 
@@ -93,8 +101,8 @@ if __name__ == "__main__":
     # plotting
     scatter_plot(x, y)
     plot(x, predicted_values)
-    ploty(cost_function, 'no of iterations', 'cost function')
     plt.show()
+    ploty(cost_function, 'no of iterations', 'cost function')
 
     # computing metrics
     metrics = PerformanceMetrics(y, predicted_values)
