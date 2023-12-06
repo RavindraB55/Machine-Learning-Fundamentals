@@ -4,10 +4,11 @@ Linear regression predicts the relationship between two variables by assuming a 
 
 To calculate best-fit line linear regression uses a traditional slope-intercept form which is given below,
 
-Yi = β0 + β1Xi 
+```math
+y_i = \beta_0 + \beta_1 x_i
+```
 
 where Yi = Dependent variable,  β0 = constant/Intercept, β1 = Slope/Intercept, Xi = Independent variable.
-
 
 ## Assumptions of Linear Regression
 1). **Linearity:** The relationship between the independent variable(s) and the dependent variable is linear. The model assumes that a change in the independent variable(s) leads to a proportional change in the dependent variable.
