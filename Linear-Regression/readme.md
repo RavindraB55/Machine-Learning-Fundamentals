@@ -18,4 +18,6 @@ The R2 value ranges from 0 to 1, where:
 
 The formula for R2 is:
 
-\[ R^2 = 1 - \frac{\text{SSR}}{\text{SST}} \]
+```math
+R^2 = 1 - \frac{\text{SSR}}{\text{SST}}
+```
