@@ -2,6 +2,9 @@
 
 Logistic Regression is generally used for classification purposes (categorical output). Unlike Linear Regression, the dependent variable can take a limited number of values only i.e, the dependent variable is categorical. When the number of possible outcomes is only two it is called Binary Logistic Regression.
 
+<p align="center">
+![Alt text](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*CnuRMdePkWf59B5Y_Mf9Fg.png)
+</p>
 
 
 The outputs of a linear regression are passed through an activation function (typically sigmoid), which maps the value to either 0 or 1. If the probability is greater than 0.5, we classify it as Class-1(Y=1) or else as Class-0(Y=0).
