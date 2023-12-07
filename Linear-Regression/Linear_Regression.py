@@ -6,6 +6,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from Plots import scatter_plot, plot, ploty
 from Metrics import PerformanceMetrics
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+
 
 '''
 HELPFUL LINKS:
