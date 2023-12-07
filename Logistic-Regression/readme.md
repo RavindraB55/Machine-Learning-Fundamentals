@@ -3,7 +3,7 @@
 Logistic Regression is generally used for classification purposes (categorical output). Unlike Linear Regression, the dependent variable can take a limited number of values only i.e, the dependent variable is categorical. When the number of possible outcomes is only two it is called Binary Logistic Regression.
 
 <p align="center">
-![Alt text](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*CnuRMdePkWf59B5Y_Mf9Fg.png)
+![Alt text](http://miro.medium.com/v2/resize:fit:1400/format:webp/1*CnuRMdePkWf59B5Y_Mf9Fg.png)
 </p>
 
 
