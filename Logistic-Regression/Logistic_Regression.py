@@ -7,6 +7,7 @@ from sklearn.metrics import accuracy_score
 
 '''
 https://medium.com/towards-data-science/building-a-logistic-regression-in-python-301d27367c24
+https://medium.com/@ashisharora2204/logistic-regression-maximum-likelihood-estimation-gradient-descent-a7962a452332
 '''
 
 class LogisticRegressionUsingGD:
