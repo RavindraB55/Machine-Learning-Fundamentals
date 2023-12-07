@@ -3,7 +3,7 @@
 Logistic Regression is generally used for classification purposes (categorical output). Unlike Linear Regression, the dependent variable can take a limited number of values only i.e, the dependent variable is categorical. When the number of possible outcomes is only two it is called Binary Logistic Regression.
 
 <p align="center">
-![Alt text](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*CnuRMdePkWf59B5Y_Mf9Fg.png)
+![alt text](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*CnuRMdePkWf59B5Y_Mf9Fg.png)
 </p>
 
 
@@ -13,7 +13,7 @@ Logistic regression still falls under the broader umbrella of regression analysi
 
 
 <p align="center">
-![Alt text](../sigmoid.webp "Sigmoid")
+![alt text](../sigmoid.webp "Sigmoid")
 </p>
 
 The cost function for logistic regression can be a piecewise function based on if y is 0 or 1. If the actual class is 1 and the model predicts 0, we should highly penalize it and vice-versa.
